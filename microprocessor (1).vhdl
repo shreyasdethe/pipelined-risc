@@ -404,8 +404,6 @@ begin
 			--assign to 23
 			pipe23(46 downto 31)   <= pipe12(15 downto  0);
 			--
-			--regwr <= '0';
-			--pipe12(15 downto 0)    <= pipe56(47 downto 32);
 			---end carrying----
 		end if;
 	end process;
